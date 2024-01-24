@@ -12,11 +12,13 @@ body{
     margin-right: auto;
 }
 .text>*{
-    color:whitesmoke;
+    color:black;
     font-size: 24px;
     font-weight: bold;
 }
 .text h1{
+    font-size: 32px;
+    color: white;
     text-align: center;
     text-decoration: underline;
 }

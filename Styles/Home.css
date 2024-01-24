@@ -43,7 +43,9 @@ aside{
     grid-column: 2/3;
 }
 aside h1{
+    font-size: 32px;
     text-align: center;
+    text-decoration: underline;
 }
 .img-ja{
     height:256px;
@@ -86,6 +88,8 @@ nav a:hover{
     color: #fff;
     border-radius: 5px;
 }
+
+
 
 footer {
     position: fixed;

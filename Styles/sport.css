@@ -53,6 +53,7 @@ main{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 .grid {
     padding-top: 5em;
@@ -73,21 +74,39 @@ main{
     margin-right: auto;
     grid-column: 2;
     grid-row: 1;
+    font-size: 32px;
     height: fit-content;
     width: fit-content;
+    text-decoration: underline;
 }
 .grid p{
     color: black;
     padding-top: 6rem;
     grid-column: 2;
     grid-row: 1;
-    height: fit-content;
-    width: fit-content;
 }
 main #kbk1{
     display: block; 
     margin: auto; 
 }
+.pic-grid{
+    display: grid;
+}
+.pic-grid p{
+    text-align: center;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.grid2 img{
+    height: 300px;
+    width: 300px;
+}
+
+
+
 
 footer {
     background-color: #1a69a0;
